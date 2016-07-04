@@ -16,41 +16,40 @@ h1 span
 header {
     background: url(../res/img/header_bg.jpg) 0 bottom repeat-x #f8f8f8;
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
-    margin-bottom: 30px;
+    margin-bottom: 2%;
     position: static;
-    padding: 10px;
+    padding: 1%;
     border-radius: 10px;
 }
 header img
 {
     border-radius: 5px;
-    width:45px;
-    height: 45px;
+    width:3%;
+    height:3%;
 }
 #tagline
 {
     font-family: 'Lobster', cursive;
-    font-size: 30px;
+    font-size: 2em;
     text-align:  center;
     font-style: normal;
     color:#20321f;
 }
 #menu
 {
-    padding: 10px;
+    padding: 1%;
     background: url(../res/img/header_bg.jpg) 0 bottom repeat-x #f8f8f8;
     position: static;
-    margin-top: -25px;
+    margin-top: -1.2%;
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
     border-radius: 25px;
 }
 #menu div
 {
     font-family: 'Lobster', cursive;
-    padding: 5px;
+    padding: 2%;
     display: inline;
-    margin: 5px 0 5px 130px;
-
+    margin: 1% 1% 1% 7.5%;
 }
 
 #menu div a,#menu div a:visited {
