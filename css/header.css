@@ -1,0 +1,61 @@
+body{
+    background: url("../res/img/bg1Body.jpg");
+    background-color: azure;
+}
+h1{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 2.5em;
+}
+h1 span
+{
+    color: green;
+    font-style: italic;
+    text-shadow: 1px 1px 5px green;
+}
+header {
+    background: url(../res/img/header_bg.jpg) 0 bottom repeat-x #f8f8f8;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    margin-bottom: 30px;
+    position: static;
+    padding: 10px;
+    border-radius: 10px;
+}
+header img
+{
+    border-radius: 5px;
+    width:45px;
+    height: 45px;
+}
+#tagline
+{
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    text-align:  center;
+    font-style: normal;
+    color:#20321f;
+}
+#menu
+{
+    padding: 10px;
+    background: url(../res/img/header_bg.jpg) 0 bottom repeat-x #f8f8f8;
+    position: static;
+    margin-top: -25px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    border-radius: 25px;
+}
+#menu div
+{
+    font-family: 'Lobster', cursive;
+    padding: 5px;
+    display: inline;
+    margin: 5px 0 5px 130px;
+
+}
+
+#menu div a,#menu div a:visited {
+    text-decoration: none;
+    color: #20321f;
+    font-size: 1.5em;
+    text-align: center;
+}
