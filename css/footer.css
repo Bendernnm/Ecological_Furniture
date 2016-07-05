@@ -1,0 +1,26 @@
+footer{
+    background: url(../res/img/header_bg.jpg) 0 bottom repeat-x #f8f8f8;
+    box-shadow: 0 0 20px #60615e;
+    margin-bottom: 2%;
+    position: static;
+    padding: 1%;
+    border-radius: 10px;
+
+}
+footer div
+{
+    width: 20%;
+    display: inline;
+}
+footer div img {
+    width: 3%;
+    height: 3%;
+    margin-left: 1%;
+}
+footer div p{
+    font-family: 'Lobster', cursive;
+    font-size: 1em;
+    font-style: normal;
+    color:#20321f;
+    margin-right: 1%;
+}

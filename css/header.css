@@ -15,7 +15,7 @@ h1 span
 }
 header {
     background: url(../res/img/header_bg.jpg) 0 bottom repeat-x #f8f8f8;
-    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    box-shadow: 0 0 20px #60615e;
     margin-bottom: 2%;
     position: static;
     padding: 1%;
@@ -41,8 +41,10 @@ header img
     background: url(../res/img/header_bg.jpg) 0 bottom repeat-x #f8f8f8;
     position: static;
     margin-top: -1.2%;
-    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    margin-bottom: 2%;
+    box-shadow: 0 0 20px #60615e;
     border-radius: 25px;
+
 }
 #menu div
 {
