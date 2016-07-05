@@ -1,26 +1,30 @@
-footer{
+footer {
     background: url(../res/img/header_bg.jpg) 0 bottom repeat-x #f8f8f8;
     box-shadow: 0 0 20px #60615e;
-    margin-bottom: 2%;
-    position: static;
-    padding: 1%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
     border-radius: 10px;
 
 }
-footer div
-{
-    width: 20%;
-    display: inline;
-}
-footer div img {
+
+footer img {
     width: 3%;
     height: 3%;
     margin-left: 1%;
+    margin-right: 2%;
 }
-footer div p{
+
+footer span {
     font-family: 'Lobster', cursive;
     font-size: 1em;
     font-style: normal;
-    color:#20321f;
-    margin-right: 1%;
+    color: #20321f;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+footer p {
+    margin-right: 2%;
 }
