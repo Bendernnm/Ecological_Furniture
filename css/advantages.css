@@ -1,17 +1,40 @@
-#advantages {
-    border: 1px solid black;
-    width: 20%;
+#advantages, #functions{
+    display: flex;
+    justify-content: space-around;
+}
+
+.advantage {
+    border: 3px inset blue;
+    box-shadow: 0 0 20px #60615e;
+    width: 25%;
     text-align: center;
-    background-color: aquamarine;
     border-radius: 20%;
     font-size: 1.2em;
 }
 
-#advantages img {
+.advantage img {
     width: 28%;
     height: 28%;
 }
 
-#advantages p {
-    margin-top: -2%;
+.advantage p {
+    padding: 3%;
+    font-family: arial, serif;
+}
+
+.advantage hr {
+    width: 20%;
+    margin: auto;
+}
+
+.advantage h2{
+    font-family: 'Lobster', cursive;
+}
+
+#advantages .advantage{
+    background: url("../res/img/advantage2.jpg");
+}
+
+#functions .advantage{
+    background: url("../res/img/functions5.jpg");
 }

@@ -1,20 +1,23 @@
-body{
+body {
     background: url("../res/img/bg1Body.jpg");
     background-color: azure;
 }
-h1{
+
+h1 {
     font-family: 'Playfair Display', serif;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 2.8em;
 }
-h1 span
-{
+
+h1 span {
     color: green;
     font-style: italic;
-    text-shadow: 1px 1px 3px green;
+    text-shadow: 1px 1px 1px black;
 }
+
 header {
-    background: url(../res/img/header_bg.jpg) 0 bottom repeat-x #f8f8f8;
+    background: url(../res/img/headerbg4.jpg);
+    /*0 bottom repeat-x #f8f8f8;*/
     box-shadow: 0 0 20px #60615e;
     margin-bottom: 3%;
     margin-top: 2%;
@@ -22,24 +25,25 @@ header {
     padding: 1%;
     border-radius: 10px;
 }
-header img
-{
+
+header img {
     border-radius: 5px;
-    width:3%;
-    height:3%;
+    width: 3%;
+    height: 3%;
 }
-#tagline
-{
+
+#tagline {
     font-family: 'Lobster', cursive;
     font-size: 2em;
-    text-align:  center;
+    text-align: center;
     font-style: normal;
-    color:#20321f;
+    color: #20321f;
+    font-weight: bold;
 }
-#menu
-{
+
+#menu {
     padding: 1%;
-    background: url(../res/img/header_bg.jpg) 0 bottom repeat-x #f8f8f8;
+    background: url(../res/img/headerbg8.png) 0 bottom repeat-x #f8f8f8;
     position: static;
     margin-top: -1.2%;
     margin-bottom: 2%;
@@ -47,15 +51,15 @@ header img
     border-radius: 25px;
 
 }
-#menu div
-{
+
+#menu div {
     font-family: 'Lobster', cursive;
     padding: 2%;
     display: inline;
     margin: 1% 1% 1% 7.5%;
 }
 
-#menu div a,#menu div a:visited {
+#menu div a, #menu div a:visited {
     text-decoration: none;
     color: #20321f;
     font-size: 1.5em;
