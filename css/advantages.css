@@ -1,0 +1,17 @@
+#advantages {
+    border: 1px solid black;
+    width: 20%;
+    text-align: center;
+    background-color: aquamarine;
+    border-radius: 20%;
+    font-size: 1.2em;
+}
+
+#advantages img {
+    width: 28%;
+    height: 28%;
+}
+
+#advantages p {
+    margin-top: -2%;
+}
