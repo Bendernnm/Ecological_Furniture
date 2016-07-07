@@ -1,6 +1,10 @@
 body {
-    background: url("../res/img/bg1Body.jpg");
-    background-color: azure;
+    background: url("../res/img/bgBody.jpg")fixed top left no-repeat;
+    -o-background-size: 100% 100%;
+    -webkit-background-size:100% 100%;
+    -moz-background-size:100% 100%;
+    -khtml-background-size:100% 100%;
+    background-size: 100%;
 }
 
 h1 {
@@ -16,18 +20,16 @@ h1 span {
 }
 
 header {
-    background: url(../res/img/headerbg4.jpg);
+    background: url(../res/img/headerbg4.png);
     /*0 bottom repeat-x #f8f8f8;*/
     box-shadow: 0 0 20px #60615e;
-    margin-bottom: 3%;
-    margin-top: 2%;
+    margin: 2% 3% 3% 3%;
     position: static;
     padding: 1%;
-    border-radius: 10px;
+    border-radius: 25px;
 }
 
 header img {
-    border-radius: 5px;
     width: 3%;
     height: 3%;
 }
@@ -37,7 +39,7 @@ header img {
     font-size: 2em;
     text-align: center;
     font-style: normal;
-    color: #20321f;
+    color: black;
     font-weight: bold;
 }
 
@@ -45,8 +47,7 @@ header img {
     padding: 1%;
     background: url(../res/img/headerbg8.png) 0 bottom repeat-x #f8f8f8;
     position: static;
-    margin-top: -1.2%;
-    margin-bottom: 2%;
+    margin: -1.2% 3% 3% 2%;
     box-shadow: 0 0 20px #60615e;
     border-radius: 25px;
 

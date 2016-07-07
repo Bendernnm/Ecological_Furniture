@@ -6,8 +6,8 @@
 }
 
 .advantage {
-    border: 3px inset blue;
-    box-shadow: 0 0 20px #60615e;
+    border: 3px double #60615e;
+    box-shadow: 0 0 20px black;
     width: 25%;
     text-align: center;
     border-radius: 20%;
@@ -21,7 +21,8 @@
 
 .advantage p {
     padding: 3%;
-    font-family: arial, serif;
+    /**font-family: arial, serif;*/
+    font-family: 'Playfair Display', serif;
 }
 
 .advantage hr {
@@ -38,5 +39,5 @@
 }
 
 #functions .advantage{
-    background: url("../res/img/functions5.jpg");
+    background: url("../res/img/functions3.jpg");
 }
