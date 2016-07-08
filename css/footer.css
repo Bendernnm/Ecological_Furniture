@@ -1,5 +1,5 @@
 footer {
-    background: url(../res/img/headerbg3.png) 0 bottom repeat-x #f8f8f8;
+    background: url(../res/img/footer.png) 0 bottom repeat-x #f8f8f8;
     box-shadow: 0 0 20px #60615e;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -20,7 +20,7 @@ footer span {
     font-family: 'Lobster', cursive;
     font-size: 1em;
     font-style: normal;
-    color: #20321f;
+    color: black;
     margin-right: 15%;
     margin-left: 15%;
 }

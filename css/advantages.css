@@ -35,9 +35,18 @@
 }
 
 #advantages .advantage{
-    background: url("../res/img/advantage2.jpg");
+    background: url("../res/img/advantage.jpg");
+
 }
+#advantages .advantage:hover
+{
+    border: 5px solid yellow;
+ }
 
 #functions .advantage{
-    background: url("../res/img/functions3.jpg");
+    background: url("../res/img/functions.jpg");
+}
+#functions .advantage:hover
+{
+    border: 5px solid green;
 }

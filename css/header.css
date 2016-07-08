@@ -20,7 +20,8 @@ h1 span {
 }
 
 header {
-    background: url(../res/img/headerbg4.png);
+    background: url(../res/img/header_bg.jpg);
+    background-size: 100%;
     /*0 bottom repeat-x #f8f8f8;*/
     box-shadow: 0 0 20px #60615e;
     margin: 2% 3% 3% 3%;
@@ -45,7 +46,7 @@ header img {
 
 #menu {
     padding: 1%;
-    background: url(../res/img/headerbg8.png) 0 bottom repeat-x #f8f8f8;
+    background: url(../res/img/menu.png) 0 bottom repeat-x #f8f8f8;
     position: static;
     margin: -1.2% 3% 3% 2%;
     box-shadow: 0 0 20px #60615e;
