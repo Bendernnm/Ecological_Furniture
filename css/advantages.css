@@ -21,8 +21,8 @@
 
 .advantage p {
     padding: 3%;
-    /**font-family: arial, serif;*/
     font-family: 'Playfair Display', serif;
+    font-weight: bold;
 }
 
 .advantage hr {
@@ -38,15 +38,7 @@
     background: url("../res/img/advantage.jpg");
 
 }
-#advantages .advantage:hover
-{
-    border: 5px solid yellow;
- }
-
 #functions .advantage{
     background: url("../res/img/functions.jpg");
 }
-#functions .advantage:hover
-{
-    border: 5px solid green;
-}
+
